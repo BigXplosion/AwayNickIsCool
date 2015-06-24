@@ -6,7 +6,7 @@ Copy or clone the awaynickiscool.cpp file compile the file with this command:
 
 Note that this will only work on a system that has ZNC installed. If this is not the case but you still want to build the module, I suggest that you take a look at the [ZNC wiki](http://wiki.znc.in/Compiling_modules) for compiling ZNC modules.
 
-If everything worked fine a file called ```awaynickiscool.so``` should have been created in the same folder. Copy this file to the ./znc/modules folder.
+If everything worked fine a file called ```awaynickiscool.so``` should have been created in the same folder. Copy this file to the ```/.znc/modules folder```.
 
 When the file is installed go into your irc client and type ```/znc loadmod awaynickiscool``` or ```/msg *status loadmod awaynickiscool```. The status will confirm if the module is installed and you will be able to see an awaynickiscool module in your webadmin.
 
