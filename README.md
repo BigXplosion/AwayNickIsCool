@@ -13,3 +13,5 @@ When the file is installed go into your irc client and type ```/znc loadmod away
 Give the module in the webadmin the nick you want to have when you are away and everything should be setup.
 
 If you want to disable the simple_away (the lame replacement of simple_away by ZNC) you type ```/znc unloadmod simple_away``` or ```/msg *status unloadmod awaynickiscool``` and the module will be unloaded.
+
+Note: The awaynickiscool module will have to be rebuild everytime you update your ZNC version. You do this the same way as the first time, so you can just follow the steps from above again.
